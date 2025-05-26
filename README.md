@@ -25,12 +25,12 @@ A full-stack AI-powered web application that performs **Retrieval Augmented Gene
 * **React** for web support
 * **RESTful API** integration for document upload, chat, and querying
 
-### ☁️ Deployment & DevOps
+### Deployment & DevOps
 
 * **Render** for full-stack deployment (backend, frontend, database)
 * **Hugging Face Inference Endpoints** for fast and scalable LLM hosting
 
-## 🔍 Core Architecture
+## Core Architecture
 
 1. **Document Upload & Preprocessing**
    → User uploads legal documents via UI → stored in PostgreSQL → embeddings created with PGVector.
@@ -41,7 +41,7 @@ A full-stack AI-powered web application that performs **Retrieval Augmented Gene
 3. **Summarization Engine**
    → Documents passed through the fine-tuned gpt-4o-mini LLM model → summary returned in under 2s.
 
-## 📊 Performance
+## Performance
 
 | Metric           | Result                           |
 | ---------------- | -------------------------------- |
